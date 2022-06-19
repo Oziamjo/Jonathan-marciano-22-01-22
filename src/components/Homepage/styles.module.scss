@@ -1,0 +1,76 @@
+.searchWrappper {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.weatherBox {
+  margin: 10px auto;
+  width: 50%;
+  padding: 15px;
+  color: darkblue;
+
+  &Dark {
+    margin: 10px auto;
+    width: 50%;
+    padding: 15px;
+    color: #c1cde2;
+  }
+}
+
+.weatherBox h1,
+.weatherBoxDark h1 {
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  color: white;
+}
+.cityData {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  font-weight: bold;
+  align-items: center;
+
+  .favoritesToggleButton {
+    background-color: transparent;
+    color: darkblue;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .favoritesToggleButton {
+    min-width: 0px;
+  }
+}
+
+.temperature {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .weatherBox,
+  .weatherBoxDark {
+    width: 70%;
+    font-size: 1em;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .weatherBox,
+  .weatherBoxDark {
+    width: 80%;
+    font-size: 1em;
+  }
+}

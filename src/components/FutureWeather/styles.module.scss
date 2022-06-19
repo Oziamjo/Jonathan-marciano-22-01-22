@@ -1,0 +1,32 @@
+.futureData {
+  display: flex;
+  justify-content: center;
+  padding: 0 10%;
+  flex-wrap: wrap;
+}
+.futureWeatherBox {
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 30px;
+  margin: 5px;
+  padding: 40px 10px;
+  flex-grow: 1;
+  color: #121212;
+}
+
+@media screen and (max-width: 992px) {
+  .futureWeatherBox {
+    width: 80%;
+  }
+}
+
+.futureWeatherBox p {
+  margin: 5px 0;
+}
+
+.day {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #13658f;
+}

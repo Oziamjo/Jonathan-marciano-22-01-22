@@ -1,0 +1,32 @@
+.modeButton {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  font-size: 1em;
+  padding: 5px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px;
+  }
+}
+.modeDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+
+  svg {
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .modeDiv svg {
+    padding-right: 0;
+  }
+  .modeDiv span {
+    display: none;
+  }
+}
