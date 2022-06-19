@@ -1,8 +1,7 @@
 **Weather app **
-https://Oziamjo.github.io/Jonathan-marciano-22-01-22/ 
+
 
 Tools: React.js + hooks , Redux toolkit state management, Axios, API, Router, Css, Material UI and more.
-![image](https://user-images.githubusercontent.com/61117215/157666827-22405408-cafd-429f-a003-7a9a59fca49b.png)
 
 # Getting Started with Create React App
 
